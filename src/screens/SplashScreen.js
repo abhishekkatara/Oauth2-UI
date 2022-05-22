@@ -12,7 +12,7 @@ import {
 function SplashScreen() {
   let navigate = useNavigate();
   function login() {
-    const url = 'https://585f-27-57-177-85.ngrok.io';
+    const url = 'https://main.d2q5o4l9e15bp9.amplifyapp.com';
     axios.get(url+'/auth/login/google',{
       method: "GET",
       headers: {
